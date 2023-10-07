@@ -6,3 +6,6 @@ Decided to upload it as it was a big learning experience for me in adapting to a
 The first half is a knowledge base, mapping out the environment our agent needs to navigate through.
 To do this I essentially turned the world into a graph, giving each movement a cost. 
 This way in the second half, I can run different types of searching algorithms to find the shortest paths from one node to another.
+
+Used BFS and DFS when making this, settled on BFS because it's just better. 
+I used the Bogosort algorithm because I found it's implementation in Prolog quite funny (and the graph size was small enough that it didn't make a difference).
